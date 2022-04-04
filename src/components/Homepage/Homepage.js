@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../Header/Header';
 import MacContainer from '../MacContainer/MacContainer';
+import ReviewContainer from '../ReviewContainer/ReviewContainer';
 
 const Homepage = () => {
     return (
         <div>
-            <Header></Header>
             <MacContainer></MacContainer>
+            <ReviewContainer></ReviewContainer>
         </div>
     );
 };
